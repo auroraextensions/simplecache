@@ -1,9 +1,9 @@
-# AuroraExtensions\_Cache
+# AuroraExtensions\_SimpleCache
 
-Generic Magento 2 cache module. Recommended for certain `AuroraExtensions` modules.
+General-purpose cache used by Aurora Extensions.
 
 ## Installation
 
 ```
-composer require auroraextensions/cache
+composer require auroraextensions/simplecache
 ```
