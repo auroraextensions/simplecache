@@ -9,16 +9,16 @@
  * is bundled with this package in the file LICENSE.txt.
  *
  * It is also available on the Internet at the following URL:
- * https://docs.auroraextensions.com/magento/extensions/2.x/cache/LICENSE.txt
+ * https://docs.auroraextensions.com/magento/extensions/2.x/simplecache/LICENSE.txt
  *
- * @package       AuroraExtensions_Cache
+ * @package       AuroraExtensions_SimpleCache
  * @copyright     Copyright (C) 2019 Aurora Extensions <support@auroraextensions.com>
  * @license       MIT
  */
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Cache/etc/cache.xsd">
-    <type name="auroraextensions" translate="label,description" instance="AuroraExtensions\Cache\Model\Type">
-        <label>Aurora Extensions Cache</label>
-        <description>General-purpose cache used by Aurora Extensions</description>
+    <type name="auroraextensions" translate="label,description" instance="AuroraExtensions\SimpleCache\Model\Type">
+        <label>Simple Cache</label>
+        <description>General-purpose cache used by Aurora Extensions.</description>
     </type>
 </config>

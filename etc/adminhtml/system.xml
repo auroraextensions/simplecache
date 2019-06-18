@@ -9,9 +9,9 @@
  * is bundled with this package in the file LICENSE.txt.
  *
  * It is also available on the Internet at the following URL:
- * https://docs.auroraextensions.com/magento/extensions/2.x/cache/LICENSE.txt
+ * https://docs.auroraextensions.com/magento/extensions/2.x/simplecache/LICENSE.txt
  *
- * @package       AuroraExtensions_Cache
+ * @package       AuroraExtensions_SimpleCache
  * @copyright     Copyright (C) 2019 Aurora Extensions <support@auroraextensions.com>
  * @license       MIT
  */
@@ -22,15 +22,15 @@
             <label>Aurora Extensions</label>
         </tab>
 
-        <section id="auroraextensions_cache" translate="label" sortOrder="100" showInDefault="1" showInWebsite="1" showInStore="1">
+        <section id="auroraextensions_simplecache" translate="label" sortOrder="100" showInDefault="1" showInWebsite="1" showInStore="1">
             <class>separator-top</class>
-            <label>Cache</label>
+            <label>Simple Cache</label>
             <tab>auroraextensions</tab>
-            <resource>AuroraExtensions_Cache::configuration</resource>
+            <resource>AuroraExtensions_SimpleCache::configuration</resource>
             <group id="general" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
                 <label>General Settings</label>
                 <field id="enable" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <label>Enable Module</label>
+                    <label>Enable Simple Cache</label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
                 </field>
             </group>
