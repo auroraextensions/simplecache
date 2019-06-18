@@ -8,9 +8,9 @@
  * is bundled with this package in the file LICENSE.txt.
  *
  * It is also available on the Internet at the following URL:
- * https://docs.auroraextensions.com/magento/extensions/2.x/cache/LICENSE.txt
+ * https://docs.auroraextensions.com/magento/extensions/2.x/simplecache/LICENSE.txt
  *
- * @package       AuroraExtensions_Cache
+ * @package       AuroraExtensions_SimpleCache
  * @copyright     Copyright (C) 2019 Aurora Extensions <support@auroraextensions.com>
  * @license       MIT
  */
@@ -18,6 +18,6 @@ use Magento\Framework\Component\ComponentRegistrar;
 
 ComponentRegistrar::register(
     ComponentRegistrar::MODULE,
-    'AuroraExtensions_Cache',
+    'AuroraExtensions_SimpleCache',
     __DIR__
 );
