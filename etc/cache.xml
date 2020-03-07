@@ -17,8 +17,8 @@
  */
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Cache/etc/cache.xsd">
-    <type name="auroraextensions" translate="label,description" instance="AuroraExtensions\SimpleCache\Model\Type">
+    <type name="simplecache" translate="label,description" instance="AuroraExtensions\SimpleCache\Model\Type">
         <label>Simple Cache</label>
-        <description>General-purpose cache used by Aurora Extensions.</description>
+        <description>General-purpose cache for Magento.</description>
     </type>
 </config>
