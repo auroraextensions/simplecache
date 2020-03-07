@@ -14,6 +14,8 @@
  * @copyright     Copyright (C) 2019 Aurora Extensions <support@auroraextensions.com>
  * @license       MIT
  */
+declare(strict_types=1);
+
 namespace AuroraExtensions\SimpleCache\Model;
 
 use Magento\Framework\{
@@ -23,11 +25,11 @@ use Magento\Framework\{
 
 class Type extends TagScope
 {
-    /** @constant string TYPE_IDENTIFIER */
-    const TYPE_IDENTIFIER = 'auroraextensions';
-
     /** @constant string CACHE_TAG */
-    const CACHE_TAG = 'AURORAEXTENSIONS_SIMPLECACHE';
+    public const CACHE_TAG = 'DEFAULT';
+
+    /** @constant string TYPE_IDENTIFIER */
+    public const TYPE_IDENTIFIER = 'simplecache';
 
     /**
      * @param FrontendPool $cachePool
@@ -36,8 +38,8 @@ class Type extends TagScope
     public function __construct(FrontendPool $cachePool)
     {
         parent::__construct(
-            $cachePool->get(self::TYPE_IDENTIFIER),
-            self::CACHE_TAG
+            $cachePool->get(static::TYPE_IDENTIFIER),
+            static::CACHE_TAG
         );
     }
 }
